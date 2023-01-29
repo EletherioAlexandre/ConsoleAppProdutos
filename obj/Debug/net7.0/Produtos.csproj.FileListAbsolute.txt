@@ -1,0 +1,15 @@
+/home/alexandreeletherio/projects/Produtos/bin/Debug/net7.0/Produtos
+/home/alexandreeletherio/projects/Produtos/bin/Debug/net7.0/Produtos.deps.json
+/home/alexandreeletherio/projects/Produtos/bin/Debug/net7.0/Produtos.runtimeconfig.json
+/home/alexandreeletherio/projects/Produtos/bin/Debug/net7.0/Produtos.dll
+/home/alexandreeletherio/projects/Produtos/bin/Debug/net7.0/Produtos.pdb
+/home/alexandreeletherio/projects/Produtos/obj/Debug/net7.0/Produtos.csproj.AssemblyReference.cache
+/home/alexandreeletherio/projects/Produtos/obj/Debug/net7.0/Produtos.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexandreeletherio/projects/Produtos/obj/Debug/net7.0/Produtos.AssemblyInfoInputs.cache
+/home/alexandreeletherio/projects/Produtos/obj/Debug/net7.0/Produtos.AssemblyInfo.cs
+/home/alexandreeletherio/projects/Produtos/obj/Debug/net7.0/Produtos.csproj.CoreCompileInputs.cache
+/home/alexandreeletherio/projects/Produtos/obj/Debug/net7.0/Produtos.dll
+/home/alexandreeletherio/projects/Produtos/obj/Debug/net7.0/refint/Produtos.dll
+/home/alexandreeletherio/projects/Produtos/obj/Debug/net7.0/Produtos.pdb
+/home/alexandreeletherio/projects/Produtos/obj/Debug/net7.0/Produtos.genruntimeconfig.cache
+/home/alexandreeletherio/projects/Produtos/obj/Debug/net7.0/ref/Produtos.dll

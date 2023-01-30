@@ -1,48 +1,62 @@
 using System.Globalization;
 
-namespace Produtos {
-    class Produto {
-        public string Nome;
-        public double Preco;
-        public int Quantidade;
-
-        // Construtor 1
-        public Produto(string nome, double preco, int quantidade) {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = quantidade;
-        }
-
-        // SOBRECARGA
-
-        // Construtor 2
-        public Produto(string nome, double preco) {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = 5;
-        }
-
-        // Construtor 3
+namespace Produtos
+{
+    class Produto
+    {
+        private string _nome;
+        private double _preco;
+        private int _quantidade;
 
         public Produto() {
-            
         }
 
-        public double ValorTotalEmEstoque() {
-            return Preco * Quantidade;
+        public Produto(string nome, double preco, int quantidade) {
+            _nome = nome;
+            _preco = preco;
+            _quantidade = quantidade;
         }
 
-        public void AdicionarProdutos(int quantidade){
-            Quantidade += quantidade;
+        // Propertie definindo a operação de GET e SET
+        public string Nome {
+            get { return _nome; }
+            set 
+            { 
+                if (value != null && value.Length > 1) 
+                {
+                    _nome = value;
+                }
+            }
         }
 
-        public void RemoverProdutos(int quantidade) {
-            Quantidade -= quantidade;
+        public double Preco {
+            get { return _preco; }
+        }
+
+        public int Quantidade {
+            get { return _quantidade; }
+        }
+
+
+
+        public double ValorTotalEmEstoque()
+        {
+            return _preco * _quantidade;
+        }
+
+        public void AdicionarProdutos(int quantidade)
+        {
+            _quantidade += quantidade;
+        }
+
+        public void RemoverProdutos(int quantidade)
+        {
+            _quantidade -= quantidade;
         }
 
         public override string ToString()
         {
-            string content = $"{Nome}, $ {Preco.ToString("F2", CultureInfo.InvariantCulture)}, {Quantidade} unidades, Total: $ {ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}";
+            string content = $"{_nome}, $ {_preco.ToString("F2", CultureInfo.InvariantCulture)}, {_quantidade} unidades, Total: $ {ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}";
 
             return content;
         }
